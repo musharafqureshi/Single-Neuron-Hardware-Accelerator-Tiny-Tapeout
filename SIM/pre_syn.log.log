@@ -1,0 +1,17 @@
+VCD info: dumpfile tb_tt_um_neuron.vcd opened for output.
+[90000] POST-RESET uo_out=0 uio_out=00000000
+[90000] Scenario 1: basic positive MAC
+[630000] PASS: result=10 expected=10
+[630000] Scenario 2: ReLU clamp on negative sum
+[1010000] PASS: ReLU correctly clamped negative sum to 0
+[1010000] Scenario 3: positive saturation at 255
+[1550000] PASS: correctly saturated to 255
+[1550000] Scenario 4: mixed signed MAC
+[2090000] PASS: result=20 expected=20
+[2090000] Scenario 5: minimum 6-bit signed value edge case
+[2630000] PASS: min-value product handled correctly, ReLU->0
+[2630000] Scenario 6: busy flag timing
+[2651000] PASS: busy asserted during MAC sequence
+[2771000] PASS: busy deasserted once done
+[2890000] Test sequence complete
+neuro_tb.v:206: $finish called at 2890000 (1ps)
