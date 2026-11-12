@@ -1,0 +1,63 @@
+{
+   "creator": "Yosys 0.68 (git sha1 38e001a6f, Release, GNU /usr/bin/c++ 13.3.0)",
+   "invocation": "stat -json -liberty /foss/designs/neuro/runs/RUN_2026-08-29_16-19-54/tmp/5263beb525094b35b871b1c2a168935b.lib -liberty /foss/designs/neuro/runs/RUN_2026-08-29_16-19-54/tmp/b366dd2ab4344c24b036e686799910e1.lib ",
+   "modules": {
+      "\\tt_um_neuron": {
+         "num_wires":         645,
+         "num_wire_bits":     742,
+         "num_pub_wires":     21,
+         "num_pub_wire_bits": 118,
+         "num_ports":         8,
+         "num_port_bits":     43,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         707,
+         "num_submodules":       0,
+         "area":              3968.092800,
+         "sequential_area":    3968.092800,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 26,
+            "$_AND_": 107,
+            "$_MUX_": 91,
+            "$_NAND_": 230,
+            "$_NOR_": 19,
+            "$_NOT_": 7,
+            "$_ORNOT_": 14,
+            "$_OR_": 35,
+            "$_XNOR_": 43,
+            "$_XOR_": 54,
+            "sg13g2_dfrbpq_1": 81
+         }
+      }
+   },
+      "design": {
+         "num_wires":         645,
+         "num_wire_bits":     742,
+         "num_pub_wires":     21,
+         "num_pub_wire_bits": 118,
+         "num_ports":         8,
+         "num_port_bits":     43,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         707,
+         "num_submodules":       0,
+         "area":              3968.092800,
+         "sequential_area":    3968.092800,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 26,
+            "$_AND_": 107,
+            "$_MUX_": 91,
+            "$_NAND_": 230,
+            "$_NOR_": 19,
+            "$_NOT_": 7,
+            "$_ORNOT_": 14,
+            "$_OR_": 35,
+            "$_XNOR_": 43,
+            "$_XOR_": 54,
+            "sg13g2_dfrbpq_1": 81
+         }
+      }
+}
+

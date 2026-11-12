@@ -1,0 +1,4 @@
+
+16. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\tt_um_neuron.\mult_a' from process `\tt_um_neuron.$proc$/foss/designs/neuro/src/neuro.v:81$4'.
+No latch inferred for signal `\tt_um_neuron.\mult_b' from process `\tt_um_neuron.$proc$/foss/designs/neuro/src/neuro.v:81$4'.
